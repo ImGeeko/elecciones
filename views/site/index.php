@@ -1,15 +1,13 @@
 <?php
 
-use yii\helpers\Html;
-
 /** @var yii\web\View $this */
 
-$this->title = 'My Yii Application';
+$this->title = 'Dzul';
 ?>
 <div class="site-index">
 
     <div class="jumbotron text-center bg-transparent">
-        <h1 class="display-4">Congratulations!</h1>
+        <h1 class="display-4">¡Bienvenido!</h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
@@ -27,7 +25,7 @@ $this->title = 'My Yii Application';
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat nulla pariatur.</p>
 
-                    <?= Html::a('Estados', ['cat-estado/index'], ['class' => 'btn btn-primary']) ?>
+                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Heading</h2>
