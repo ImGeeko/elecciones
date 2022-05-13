@@ -42,9 +42,9 @@ class CatEleccion extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'ele_id'     => 'Id',
+            'ele_id' => 'Id',
             'ele_nombre' => 'Nombre',
-            'ele_anio'   => 'Año',
+            'ele_anio' => 'Año',
         ];
     }
 
